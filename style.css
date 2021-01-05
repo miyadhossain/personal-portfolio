@@ -6,6 +6,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 li {
     float: left;
@@ -53,12 +54,14 @@ p {
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+    margin-top: 5%;
 }
 .half-width img {
     width: 100%;
 }
 section {
-    padding-bottom: 100px;
+    padding-bottom: 50px;
+    margin-bottom: 80px;
     height: 400px;
 }
 .latest {
@@ -70,7 +73,7 @@ section {
 }
 .project-area {
     background-color: #F8F9FC;
-    height: 450px;
+    height: 500px;
     
 }
 .project-area img {
