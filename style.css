@@ -62,7 +62,7 @@ p {
 section {
     padding-bottom: 50px;
     margin-bottom: 80px;
-    height: 600px;
+    height: 500px;
 }
 .latest {
     color: #FF8367;
@@ -73,7 +73,7 @@ section {
 }
 .project-area {
     background-color: #F8F9FC;
-    height: 500px;
+    height: 600px;
     
 }
 .project-area img {
