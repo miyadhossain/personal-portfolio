@@ -143,3 +143,32 @@ section {
 .project-para {
     font-size: 12px;
 }
+.container-skill {
+    width: 90%;
+    background-color: #ddd;
+    border-radius: 10px;
+}
+  
+.skills {
+    text-align: right;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: white;
+    border-radius: 10px;
+}
+.html {width: 90%;
+    background-color: #35363A;
+
+}
+.css {width: 80%; 
+    background-color: #35363A;
+}
+.js {width: 65%; 
+    background-color: #35363A;
+}
+.reactjs {width: 60%; 
+    background-color: #35363A;
+}
+.skill-div {
+    margin-left: 10%;
+}
