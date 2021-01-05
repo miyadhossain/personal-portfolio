@@ -1,6 +1,27 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: #6B6B6B;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #d4d4d4;
+}
+.nav-bar {
+    float: right;
 }
 .header-1 {
     font-size: 50px;
@@ -8,7 +29,6 @@ body {
     line-height: 1.2em;
 }
 h3 {
-    font-size: 22px;
     color: #363958;
 }
 .hello {
@@ -38,7 +58,7 @@ p {
     width: 100%;
 }
 section {
-    padding-bottom: 200px;
+    padding-bottom: 100px;
     height: 400px;
 }
 .latest {
@@ -50,51 +70,73 @@ section {
 }
 .project-area {
     background-color: #F8F9FC;
-    height: 550px;
+    height: 450px;
     
 }
 .project-area img {
     width: 100%;
     border-radius: 15px;
     margin-top: 15px;
-    margin-left: -15px;
+    margin-left: -10px;
 }
 .project-experience {
     background-color: #FFFFFF;
     border-radius: 20px;
     box-shadow: 5px 25px 40px #dddddd;
-    height: 95%;
 }
 .quarter-width {
     float: left;
-    width: 24%;
+    width: 25%;
     margin-left: 2%;
     padding-left: 2%;
 }
 .margin-1 {
     margin-left: 10%;
     padding-left: 2%;
-    margin-top: 80px;
-}
-.work-inquiry {
-    
-}
-.img-work {
-    width: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 90px;
 }
 .img-container {
-    position: relative;
-    text-align: center;
-    color: white;
+    background-image: url("./images/work-inquiry.png");
+    background-size: 70% 150px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 12%;
 }
-.wi-header {
-    position: absolute;
-    top: 50%;
-    left: 42%;
-    font-size: 50px;
-    transform: translate(-50%, -50%);
+.inline-header {
+    display: inline-block;
+    margin-left: 10%;
+    font-size: 25px;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+.inline-link {
+    display: inline-block;
+    margin-left: 43%;
+}
+.link-design {
+    padding: 13px 18px;
+    font-weight: 500;
+}
+.footer-div {
+    text-align: center;
+}
+.stay-header {
+    word-spacing: -1px;
+    font-size: 13px;
+}
+.icon-img {
+    width: 35px;
+    height: 35px;
+    margin-left: 1.5%;
+}
+.email {
+    color: #363958;
+    font-weight: 900;
+    font-size: 28px;
+}
+.project-title {
+    font-size: 14px;
+    font-weight: 900;
+}
+.project-para {
+    font-size: 12px;
 }
